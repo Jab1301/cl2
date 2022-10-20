@@ -1,20 +1,20 @@
 let express = require('express');
 let app = express();
 
-//let CL = {
-   // "section 1" : {
+let CL = {
+   "section 1" : {
         "students" : 8,
         "time": "7:30am EST"
-    //},
+    },
     "section 2" : {
         "students" : 11,
         "time": "9:30am EST"
-  //  },
+    },
     "section 3" : {
         "students" : 3,
         "time": "10:30am EST"
-   // }
-//};
+    }
+};
 
 //app.get("/", (req,res) => {
  //   res.send("Hello!")
